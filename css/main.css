@@ -264,12 +264,15 @@ textarea {
       font-size: 1.125rem;
       text-transform: uppercase;
     }
-    .tools-wrapper p{
+    .tools-wrapper p {
       background: #EC91C4;
       margin: 20px 0;
       padding: 15px 0;
       font-size: 1.125rem;
       text-transform: uppercase;
+    }
+    .skill, .tool {
+      width: 45%;
     }
 
     /* About */
@@ -415,6 +418,12 @@ textarea {
   /* Style adjustments for viewports that meet the condition */
 
   /*General Style*/
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
 
   /* Header */
   header {
@@ -444,31 +453,80 @@ textarea {
     width: 45%;
     align-items: center;
   }
-  /* Skills */
+  .project-description {
+    margin-bottom: 30px;
+  }
+  .project-link {
+    margin: 40px 0 60px;
+  }
+
+  /* Skills & Tools */
+  .skills h2 {
+    margin-bottom: 40px;
+  }
   .dev-wrapper, .tools-wrapper {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     flex-flow: row wrap;
   }
-  .dev-wrapper p {
+  .dev-wrapper p, .tools-wrapper p {
     padding: 15px 0;
   }
 
   /* About */
+  .about-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  .about-info h3 {
+    text-align: left;
+  }
 
   /* Footer */
+  .contact-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
-
-
-
-
-
 
 
 @media only screen and (min-width: 1200px) {
   /* Style adjustments for viewports that meet the condition */
+
+  /* Header */
+  .intro h1 {
+    font-size: 4rem;
+  }
+  .intro h2 {
+    font-size: 2rem;
+  }
+  /* Projects */
+  #work h2 {
+    font-size: 3rem;
+    margin-bottom: 60px;
+  }
+  .project-item {
+    width: 30%;
+  }
+  /* Skills & Tools */
+  #skills {
+    padding: 120px 0 120px;
+  }
+  #skills .content-wrapper {
+    max-width: 900px;
+  }
+  .skill, .tool {
+    width: 30%;
+  }
+  .dev-wrapper p, .tools-wrapper p {
+    font-size: 1rem;
+  }
 }
+
 
 
 
