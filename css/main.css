@@ -157,7 +157,7 @@ textarea {
     }
     header h2 {
       margin-top: 60px;
-      font-size: 1.25rem;
+      font-size: 1.125rem;
     }
 
   /* Navigation */
@@ -437,6 +437,9 @@ textarea {
   header h1 {
     font-size: 2rem;
   }
+  header h2 {
+    font-size: 1.25rem;
+  }
   header nav {
     display: flex;
     justify-content: center;
@@ -522,7 +525,7 @@ textarea {
     font-size: 4rem;
   }
   .intro h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   /* Projects */
   #work h2 {
